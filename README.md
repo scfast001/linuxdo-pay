@@ -68,22 +68,21 @@ Fork 本仓库或下载代码并上传到你的 GitHub。
     * 用户支付成功后的展示页面。
 
 ## 📝 本地开发
-
 如果你想在本地运行：
 
 1. 安装依赖：
    ```bash
    pip install flask
-
+   ```
 2. 设置环境变量 (Mac/Linux):
-```bash
-export PID="你的PID"
-export KEY="你的密钥"
-
+   ```bash
+   export PID="你的PID"
+   export KEY="你的密钥"
+   ```
 3. 运行：
-```bash
-python api/index.py
-
+   ```bash
+   python api/index.py
+   ```
 ## ⚠️ 注意事项
 1. 本项目仅作为接入示例，请勿直接用于生产环境。在正式上线前，请务必完善业务逻辑（如数据库写入、防止订单重复处理等）。
 2. 请妥善保管你的 KEY，不要将其硬编码在代码文件中。
