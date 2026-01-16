@@ -20,7 +20,7 @@
 ├── requirements.txt    # 依赖文件 (Flask)
 ├── vercel.json         # Vercel 路由配置文件
 └── README.md           # 说明文档
-
+```
 ## 🚀 部署指南 (Vercel)
 
 由于 Vercel 部署需要环境变量，而 LINUX DO 创建应用又需要 Vercel 的域名，建议按以下步骤操作：
@@ -44,7 +44,7 @@ Fork 本仓库或下载代码并上传到你的 GitHub。
     * **回调 URL**: `https://your-project.vercel.app/return`
 3. 创建成功后，获取真实的 **Client ID (PID)** 和 **Client Secret (Key)**。
 
-### 第三步：更新配置并重新部署
+### 第四步：更新配置并重新部署
 1. 回到 Vercel 项目设置页 (**Settings** -> **Environment Variables**)。
 2. 修改 `PID` 和 `KEY` 为你在上一步获取的**真实数据**。
 3. 进入 **Deployments** 页面，点击最新一次部署右侧的三个点，选择 **Redeploy**。
