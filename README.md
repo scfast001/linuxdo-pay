@@ -41,6 +41,7 @@ Fork 本仓库或下载代码并上传到你的 GitHub。
 2. 创建应用，填写如下信息：
     * **应用主页 URL**: `https://your-project.vercel.app`
     * **通知 URL**: `https://your-project.vercel.app/notify`
+    注意:此处可用系统自动配置
     * **回调 URL**: `https://your-project.vercel.app/return`
 3. 创建成功后，获取真实的 **Client ID (PID)** 和 **Client Secret (Key)**。
 
@@ -75,13 +76,14 @@ Fork 本仓库或下载代码并上传到你的 GitHub。
    pip install flask
 
 2. 设置环境变量 (Mac/Linux):
+```bash
 export PID="你的PID"
 export KEY="你的密钥"
 
 3. 运行：
+```bash
 python api/index.py
 
 ## ⚠️ 注意事项
-本项目仅作为接入示例，请勿直接用于生产环境。在正式上线前，请务必完善业务逻辑（如数据库写入、防止订单重复处理等）。
-
-请妥善保管你的 KEY，不要将其硬编码在代码文件中。
+1. 本项目仅作为接入示例，请勿直接用于生产环境。在正式上线前，请务必完善业务逻辑（如数据库写入、防止订单重复处理等）。
+2. 请妥善保管你的 KEY，不要将其硬编码在代码文件中。
